@@ -10,6 +10,7 @@
     "newLine": "lf",
     "noEmitOnError": true,
     "outDir": "./lib",
+    "rootDir": "./src",
     "pretty": true,
     "skipLibCheck": true,
     "sourceMap": false,
