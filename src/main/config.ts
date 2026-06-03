@@ -7,7 +7,6 @@ type StoreType = {
     isMaximized: boolean
   },
   app: {
-    autoCheckForUpdates: boolean,
     launchAtLogin: boolean,
     startHidden: boolean,
     hideMenuBar: boolean,
@@ -55,10 +54,6 @@ const schema: Schema<StoreType> = {
   app: {
     type: 'object',
     properties: {
-      autoCheckForUpdates: {
-        type: 'boolean',
-        default: true
-      },
       autoLaunchAtLogin: {
         type: 'boolean',
         default: true
