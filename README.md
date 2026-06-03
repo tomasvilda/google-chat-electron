@@ -3,7 +3,7 @@
 Since all other development has been discontinued, I created my own build. Only the mac build is maintained and tested.
 
 ### Installation notes for Mac
-* For **Apple Silicon** macs download the **google-chat-electron-*-darwin-arm64.zip** file. For **all other macs** download **google-chat-electron-*-darwin-x64.zip** from the [releases folder](https://github.com/jpansy/google-chat-electron/releases).
+* For **Apple Silicon** macs download the **google-chat-electron-*-darwin-arm64.zip** file. For **all other macs** download **google-chat-electron-*-darwin-x64.zip** from the [releases folder](https://github.com/tomasvilda/google-chat-electron/releases).
 * Extract the zip file and copy the "google-chat-electron" binary into the Application folder.
 * On **Apple Silicon** macs run this command in a terminal window: 
 
@@ -99,7 +99,7 @@ We don't provide installers for Fedora/RHEL/CentOS, but you can build a local RP
 ```bash
 sudo dnf install rpm-build npm
 curl -fsSL https://get.pnpm.io/install.sh | sh -
-git clone https://github.com/ankurk91/google-chat-electron.git
+git clone https://github.com/tomasvilda/google-chat-electron.git
 cd google-chat-electron
 
 pnpm install
